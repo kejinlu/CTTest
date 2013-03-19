@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3CFE6BC16F4493E008C6E94 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3CFE6BB16F4493E008C6E94 /* Cocoa.framework */; };
+		A3CFE6C616F4493E008C6E94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3CFE6C416F4493E008C6E94 /* InfoPlist.strings */; };
+		A3CFE6C816F4493E008C6E94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CFE6C716F4493E008C6E94 /* main.m */; };
+		A3CFE6CC16F4493E008C6E94 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A3CFE6CA16F4493E008C6E94 /* Credits.rtf */; };
+		A3CFE6CF16F4493E008C6E94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CFE6CE16F4493E008C6E94 /* AppDelegate.m */; };
+		A3CFE6D216F4493E008C6E94 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3CFE6D016F4493E008C6E94 /* MainMenu.xib */; };
+		A3CFE6D916F4506C008C6E94 /* taobao.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CFE6D816F4506C008C6E94 /* taobao.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3CFE6B816F4493E008C6E94 /* textView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CFE6BB16F4493E008C6E94 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A3CFE6BE16F4493E008C6E94 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A3CFE6BF16F4493E008C6E94 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A3CFE6C016F4493E008C6E94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3CFE6C316F4493E008C6E94 /* textView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "textView-Info.plist"; sourceTree = "<group>"; };
+		A3CFE6C516F4493E008C6E94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3CFE6C716F4493E008C6E94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3CFE6C916F4493E008C6E94 /* textView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "textView-Prefix.pch"; sourceTree = "<group>"; };
+		A3CFE6CB16F4493E008C6E94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A3CFE6CD16F4493E008C6E94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3CFE6CE16F4493E008C6E94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3CFE6D116F4493E008C6E94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A3CFE6D816F4506C008C6E94 /* taobao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taobao.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3CFE6B516F4493E008C6E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CFE6BC16F4493E008C6E94 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3CFE6AF16F4493E008C6E94 = {
+			isa = PBXGroup;
+			children = (
+				A3CFE6C116F4493E008C6E94 /* textView */,
+				A3CFE6BA16F4493E008C6E94 /* Frameworks */,
+				A3CFE6B916F4493E008C6E94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3CFE6B916F4493E008C6E94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3CFE6B816F4493E008C6E94 /* textView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3CFE6BA16F4493E008C6E94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3CFE6BB16F4493E008C6E94 /* Cocoa.framework */,
+				A3CFE6BD16F4493E008C6E94 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3CFE6BD16F4493E008C6E94 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3CFE6BE16F4493E008C6E94 /* AppKit.framework */,
+				A3CFE6BF16F4493E008C6E94 /* CoreData.framework */,
+				A3CFE6C016F4493E008C6E94 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A3CFE6C116F4493E008C6E94 /* textView */ = {
+			isa = PBXGroup;
+			children = (
+				A3CFE6CD16F4493E008C6E94 /* AppDelegate.h */,
+				A3CFE6CE16F4493E008C6E94 /* AppDelegate.m */,
+				A3CFE6D016F4493E008C6E94 /* MainMenu.xib */,
+				A3CFE6C216F4493E008C6E94 /* Supporting Files */,
+			);
+			path = textView;
+			sourceTree = "<group>";
+		};
+		A3CFE6C216F4493E008C6E94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3CFE6D816F4506C008C6E94 /* taobao.png */,
+				A3CFE6C316F4493E008C6E94 /* textView-Info.plist */,
+				A3CFE6C416F4493E008C6E94 /* InfoPlist.strings */,
+				A3CFE6C716F4493E008C6E94 /* main.m */,
+				A3CFE6C916F4493E008C6E94 /* textView-Prefix.pch */,
+				A3CFE6CA16F4493E008C6E94 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3CFE6B716F4493E008C6E94 /* textView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3CFE6D516F4493E008C6E94 /* Build configuration list for PBXNativeTarget "textView" */;
+			buildPhases = (
+				A3CFE6B416F4493E008C6E94 /* Sources */,
+				A3CFE6B516F4493E008C6E94 /* Frameworks */,
+				A3CFE6B616F4493E008C6E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = textView;
+			productName = textView;
+			productReference = A3CFE6B816F4493E008C6E94 /* textView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3CFE6B016F4493E008C6E94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Lu Ke";
+			};
+			buildConfigurationList = A3CFE6B316F4493E008C6E94 /* Build configuration list for PBXProject "textView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3CFE6AF16F4493E008C6E94;
+			productRefGroup = A3CFE6B916F4493E008C6E94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3CFE6B716F4493E008C6E94 /* textView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3CFE6B616F4493E008C6E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CFE6C616F4493E008C6E94 /* InfoPlist.strings in Resources */,
+				A3CFE6CC16F4493E008C6E94 /* Credits.rtf in Resources */,
+				A3CFE6D216F4493E008C6E94 /* MainMenu.xib in Resources */,
+				A3CFE6D916F4506C008C6E94 /* taobao.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3CFE6B416F4493E008C6E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CFE6C816F4493E008C6E94 /* main.m in Sources */,
+				A3CFE6CF16F4493E008C6E94 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3CFE6C416F4493E008C6E94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3CFE6C516F4493E008C6E94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A3CFE6CA16F4493E008C6E94 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3CFE6CB16F4493E008C6E94 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A3CFE6D016F4493E008C6E94 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3CFE6D116F4493E008C6E94 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3CFE6D316F4493E008C6E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A3CFE6D416F4493E008C6E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A3CFE6D616F4493E008C6E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "textView/textView-Prefix.pch";
+				INFOPLIST_FILE = "textView/textView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3CFE6D716F4493E008C6E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "textView/textView-Prefix.pch";
+				INFOPLIST_FILE = "textView/textView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3CFE6B316F4493E008C6E94 /* Build configuration list for PBXProject "textView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CFE6D316F4493E008C6E94 /* Debug */,
+				A3CFE6D416F4493E008C6E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3CFE6D516F4493E008C6E94 /* Build configuration list for PBXNativeTarget "textView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CFE6D616F4493E008C6E94 /* Debug */,
+				A3CFE6D716F4493E008C6E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3CFE6B016F4493E008C6E94 /* Project object */;
+}
