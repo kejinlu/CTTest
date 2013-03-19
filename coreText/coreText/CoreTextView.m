@@ -33,6 +33,9 @@ CGFloat RunDelegateGetWidthCallback(void *refCon){
     return [UIImage imageNamed:imageName].size.width;
 }
 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark -
+#pragma mark UIView
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -67,6 +70,7 @@ CGFloat RunDelegateGetWidthCallback(void *refCon){
     UIFont *font = [UIFont systemFontOfSize:24];
     CTFontRef fontRef = CTFontCreateWithName((CFStringRef)font.fontName, font.pointSize, NULL);
     [attributedString addAttribute:(NSString *)kCTFontAttributeName value:(id)fontRef range:NSMakeRange(0, [attributedString length])];
+    CFRelease(fontRef);
     
     //将“测试”两字字体颜色设置为蓝色
     //[attributedString addAttribute:NSForegroundColorAttributeName value:[UIColor blueColor] range:NSMakeRange(0, 2)]; //6.0+
@@ -88,6 +92,8 @@ CGFloat RunDelegateGetWidthCallback(void *refCon){
     CTRunDelegateRef runDelegate = CTRunDelegateCreate(&imageCallbacks, taobaoImageName);
     NSMutableAttributedString *imageAttributedString = [[NSMutableAttributedString alloc] initWithString:@" "];//空格用于给图片留位置
     [imageAttributedString addAttribute:(NSString *)kCTRunDelegateAttributeName value:(id)runDelegate range:NSMakeRange(0, 1)];
+    CFRelease(runDelegate);
+    
     [imageAttributedString addAttribute:@"imageName" value:taobaoImageName range:NSMakeRange(0, 1)];
     
     [attributedString insertAttributedString:imageAttributedString atIndex:1];
@@ -139,7 +145,9 @@ CGFloat RunDelegateGetWidthCallback(void *refCon){
         }
     }
     
-    
+    CFRelease(ctFrame);
+    CFRelease(path);
+    CFRelease(ctFramesetter);
 }
 
 
